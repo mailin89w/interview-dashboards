@@ -21,6 +21,17 @@
           "dashboardPath": "dashboards/bureau-veritas/projektkoordinator-industry/index.html"
         }
       ]
+    },
+    {
+      "employer": "DEPT®",
+      "slug": "dept",
+      "jobs": [
+        {
+          "title": "Senior Project Manager, Experience & Engineering",
+          "date": "2026-09-07",
+          "dashboardPath": "dashboards/dept/senior-project-manager/index.html"
+        }
+      ]
     }
   ]
 }
