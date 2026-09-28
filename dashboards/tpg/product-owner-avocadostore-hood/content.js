@@ -10,7 +10,7 @@ window.DASHBOARD_DATA = (function(){
       role: "Product Owner / Product Manager E-Commerce",
       location: "offen",
       interviewDate: "29. September 2026",
-      salaryAd: "offen",
+      salaryAd: "55.000–65.000 €",
       salaryAsk: "72.000 €",
       salaryMin: "offen",
       introTitle: "Interviewvorbereitung",
@@ -21,7 +21,7 @@ window.DASHBOARD_DATA = (function(){
       role: "Product Owner / Product Manager E-Commerce",
       location: "TBD",
       interviewDate: "September 29, 2026",
-      salaryAd: "TBD",
+      salaryAd: "€55,000–65,000",
       salaryAsk: "€72,000",
       salaryMin: "TBD",
       introTitle: "Interview Prep",
@@ -374,8 +374,9 @@ window.DASHBOARD_DATA = (function(){
     '<li>Wie sind Hybridarbeit und gemeinsame Teamtage konkret organisiert?</li>' +
     '</ul>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Gehalt</p>' +
+    '<div class="lead">Die Firma hat bereits per E-Mail einen Rahmen von 55.000–65.000 Euro brutto jährlich genannt — das liegt spürbar unter meiner in der Bewerbung genannten Vorstellung von 72.000 Euro. Diese Lücke nicht überrascht wirken lassen, sondern aktiv ansprechen: Verantwortungsumfang, Senior-Anteil der Rolle und das fehlende formale PO-Titel-Lernfeld als Verhandlungsbasis nutzen.</div>' +
     '<div class="lead">In der Bewerbung habe ich 72.000 Euro brutto jährlich genannt — diese Zahl sollte ich konsistent vertreten. Formulierung: „Meine Gehaltsvorstellung liegt wie in meiner Bewerbung angegeben bei 72.000 Euro brutto jährlich. Für mich zählt das Gesamtpaket aus Verantwortung, Entwicklungsmöglichkeiten und Rahmenbedingungen. Auf dieser Grundlage halte ich die Größenordnung weiterhin für passend.“</div>' +
-    '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">Falls nach dem Mindestgehalt gefragt wird: nicht spontan nach unten verhandeln. Erst nach Aufgabenbreite, Team und Gesamtpaket fragen.</p>';
+    '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">Falls die Differenz zum genannten Rahmen direkt angesprochen wird: nicht sofort nach unten verhandeln. Erst nach Aufgabenbreite, Team, variabler Vergütung und Gesamtpaket fragen — die Spanne kann projektabhängig oder verhandelbar sein.</p>';
 
   CONTENT.en[8] = '<p style="font-weight:800;color:var(--ink);margin-bottom:6px;">About the Role</p>' +
     '<ul class="tight">' +
@@ -402,8 +403,9 @@ window.DASHBOARD_DATA = (function(){
     '<li>How are hybrid work and shared team days actually organized?</li>' +
     '</ul>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Salary</p>' +
+    '<div class="lead">The company already stated a range of €55,000–65,000 gross per year by email — noticeably below the €72,000 I stated in my application. Don\'t let this gap catch me off guard; address it actively by pointing to the scope of responsibility, the seniority of the role, and the missing formal PO title as a learning investment worth negotiating on.</div>' +
     '<div class="lead">I stated €72,000 gross per year in my application — I should hold that number consistently. Phrasing: "My salary expectation, as stated in my application, is €72,000 gross per year. For me, what counts is the total package of responsibility, development opportunities, and working conditions. On that basis, I still consider this range appropriate."</div>' +
-    '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">If asked about a minimum: don\'t negotiate down spontaneously. Ask about scope, team, and the total package first.</p>';
+    '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">If the gap to the stated range comes up directly: don\'t negotiate down immediately. Ask about scope, team, variable pay, and the total package first — the range may be project-dependent or negotiable.</p>';
 
   // ===== 9 · Mental Checklist =====
   CONTENT.de[9] = '<div class="lead">Diese Unterlage bereitet mich auf die Rolle im Verbund von Avocadostore und Hood vor. Mein stärkstes Argument ist die Verbindung aus mehr als zehn Jahren technischer E-Commerce-Praxis, Erfahrung an den Schnittstellen und einem realistischen Blick auf Delivery.</div>' +
