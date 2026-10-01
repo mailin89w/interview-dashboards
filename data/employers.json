@@ -43,6 +43,17 @@
           "dashboardPath": "dashboards/tpg/product-owner-avocadostore-hood/index.html"
         }
       ]
+    },
+    {
+      "employer": "OTTO DÖRNER",
+      "slug": "otto-doerner",
+      "jobs": [
+        {
+          "title": "Product Owner Digitale Kundenportale",
+          "date": "2026-10-01",
+          "dashboardPath": "dashboards/otto-doerner/product-owner-digitale-kundenportale/index.html"
+        }
+      ]
     }
   ]
 }
