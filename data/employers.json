@@ -54,6 +54,17 @@
           "dashboardPath": "dashboards/otto-doerner/product-owner-digitale-kundenportale/index.html"
         }
       ]
+    },
+    {
+      "employer": "Michael Page",
+      "slug": "michael-page",
+      "jobs": [
+        {
+          "title": "Business Analyst / Requirements Engineer, Team Reporting",
+          "date": "2026-10-05",
+          "dashboardPath": "dashboards/michael-page/business-analyst-requirements-engineer-reporting/index.html"
+        }
+      ]
     }
   ]
 }
