@@ -307,6 +307,34 @@ window.DASHBOARD_DATA = (function(){
     '<p>Reporting verbindet Fachlogik, Daten und technische Umsetzung. Eine Kennzahl ist nur dann hilfreich, wenn ihre Definition, Datenbasis und Darstellung stimmen und die Nutzer damit eine konkrete Entscheidung treffen können. Diese Verbindung aus präziser Anforderung, technischer Nachvollziehbarkeit und Qualität interessiert mich. Gleichzeitig möchte ich im Gespräch verstehen, welche Art von Reporting der Kunde betreibt und wie tief die Rolle selbst in Datenanalyse und Tools arbeitet.</p>' +
     '<div class="lead">„Wie würden Sie Ihren Erfolg messen?“</div>' +
     '<p>Ich würde den Erfolg an der Rolle und den aktuellen Problemen ausrichten. Mögliche Kriterien wären weniger Rückfragen und Nacharbeit durch klarere Anforderungen, nachvollziehbare Akzeptanzkriterien, kürzere Durchlaufzeiten von der Anforderung bis zur Abnahme, geringere Fehlerquote, stabilere Reporting-Prozesse und eine höhere Zufriedenheit der Nutzer. Vor einer Festlegung müsste ich wissen, welche Daten heute verfügbar sind und welches Problem der Kunde zuerst lösen möchte.</p>' +
+    '<p style="font-weight:800;color:var(--ink);margin:18px 0 6px;">Weitere geübte Fragen</p>' +
+    '<div class="lead">Rollenwechsel / Was habe ich außer Entwicklung gemacht?</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Anforderungen klären → strukturieren → Technik &amp; Fachseite verbinden → Umsetzung begleiten</p>' +
+    '<p>„Ich bin über die Jahre immer stärker in die Schnittstellenrolle hineingewachsen und habe Anforderungen geklärt, technische Abhängigkeiten eingeordnet und die Umsetzung bis zu Test und Release begleitet.“</p>' +
+    '<div class="lead">Konkretes Requirements-Beispiel</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Unklares Design → Lücken erkennen → Anforderungen/Tickets → Living Styleguide → gemeinsame Grundlage</p>' +
+    '<p>„Ich habe aus einer nicht vollständig durchdachten Designgrundlage klare Anforderungen abgeleitet und daraus mit dem Team einen Living Styleguide als konsistente Basis für die weitere Umsetzung geschaffen.“</p>' +
+    '<div class="lead">Unbekanntes Fachgebiet</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Problem verstehen → Fachwissen holen → technische Fragen klären → Anforderungen strukturieren → Umsetzung</p>' +
+    '<p>„Ich muss nicht alles sofort wissen – mir ist wichtig, fehlendes Wissen gezielt einzuholen und fachliche wie technische Fragen zu klären, bevor wir in die Umsetzung gehen.“</p>' +
+    '<div class="lead">Schnelle Einarbeitung</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Bestehendes verstehen → klein anfangen → praktisch anwenden → gezielt vertiefen → selbstständig übernehmen</p>' +
+    '<p><b>Beispiel Aldi:</b> „Bei Aldi bin ich ohne vorherige Vue.js-Erfahrung in das Projekt eingestiegen und konnte nach kurzer, strukturierter Einarbeitung selbstständig Features und Module umsetzen.“</p>' +
+    '<div class="lead">Reporting-Lücke</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Lücke offen benennen → übertragbare Erfahrung → Fachwissen aufbauen → Lernfähigkeit belegen</p>' +
+    '<p>„Reporting ist mein Lernfeld – Requirements Engineering, technische Abstimmung und Qualitätssicherung sind es nicht.“</p>' +
+    '<div class="lead">Warum 88k?</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Gehaltsband → &gt;10 Jahre Erfahrung → großer Teil der Rolle vorhanden → Reporting = Lernfeld → 88k angemessen</p>' +
+    '<p>„Ich bringe einen großen Teil der relevanten Erfahrung bereits mit und sehe 88.000 Euro deshalb als angemessene Positionierung innerhalb des ausgeschriebenen Gehaltsbands.“</p>' +
+    '<div class="lead">Warum weg von Entwicklung?</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> über Jahre hineingewachsen → Schnittstelle liegt mir → Requirements + Qualität → bewusster nächster Schritt</p>' +
+    '<p>„Ich gehe nicht von der Technik weg, sondern entwickle eine Rolle weiter, in die ich über Jahre bereits hineingewachsen bin.“</p>' +
+    '<div class="lead">Fachbereich ↔ Technik</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Kurz:</span> Bedarf verstehen → technische Einwände verstehen → Folgen transparent machen → Optionen/Scope → Entscheidungsgrundlage</p>' +
+    '<p>„Ich würde beide Perspektiven verstehen, Optionen und Konsequenzen transparent machen und eine gemeinsame Entscheidungsgrundlage schaffen, statt selbst vorschnell eine Lösung vorzugeben.“</p>' +
+    '<div class="lead">Mein Grundprinzip</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Schema:</span> Verstehen → klären → strukturieren → abstimmen → umsetzen → prüfen</p>' +
+    '<p><b>Merksatz:</b> „Erst verstehen, dann lösen.“</p>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Gespräch mit Michael Page</p>' +
     '<p>Worauf der Berater wahrscheinlich achtet: Kann ich meinen Lebenslauf und Rollenwechsel schlüssig erklären? Passe ich fachlich ausreichend zur Kundenanforderung? Bin ich beim Reporting-Schwerpunkt realistisch und lernfähig? Sind Gehalt, Starttermin, Standort und Arbeitsmodell grundsätzlich kompatibel? Kann Michael Page mein Profil glaubwürdig beim Kunden vertreten? Gibt es Risiken, die vor der Vorstellung geklärt werden müssen?</p>' +
     '<div class="lead">Meine Botschaft an den Berater: Mein Profil ist kein klassischer Reporting-Lebenslauf. Es ist ein technisch starkes Requirements-Engineering-Profil mit viel Umsetzungserfahrung. Ich bin besonders interessant, wenn der Kunde eine Person sucht, die Anforderungen strukturiert, technische Teams versteht, Tests sauber begleitet und sich in die Reporting-Domäne einarbeiten kann. Erwartet der Kunde dagegen vom ersten Tag an tiefe SQL-, Datenmodellierungs- oder BI-Tool-Expertise, sollte das offen benannt werden.</div>';
@@ -323,6 +351,34 @@ window.DASHBOARD_DATA = (function(){
     '<p>Reporting connects business logic, data, and technical delivery. A metric is only useful if its definition, data basis, and presentation are right, and users can make a concrete decision with it. That combination of precise requirements, technical traceability, and quality interests me. At the same time, I want to understand in the conversation what kind of reporting the client runs, and how deep the role itself works in data analysis and tools.</p>' +
     '<div class="lead">"How would you measure your success?"</div>' +
     '<p>I\'d orient success around the role and its current problems. Possible criteria: fewer follow-up questions and rework through clearer requirements, traceable acceptance criteria, shorter turnaround from requirement to sign-off, a lower defect rate, more stable reporting processes, and higher user satisfaction. Before committing to that, I\'d need to know what data is available today and which problem the client wants to solve first.</p>' +
+    '<p style="font-weight:800;color:var(--ink);margin:18px 0 6px;">More Practiced Questions</p>' +
+    '<div class="lead">Career Shift / What I\'ve Done Besides Development</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Clarify requirements → structure them → connect tech &amp; business → accompany delivery</p>' +
+    '<p>"Over the years, I\'ve increasingly grown into the interface role, clarifying requirements, assessing technical dependencies, and accompanying delivery through to testing and release."</p>' +
+    '<div class="lead">A Concrete Requirements Example</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Unclear design → spot the gaps → requirements/tickets → living style guide → shared foundation</p>' +
+    '<p>"I derived clear requirements from a design foundation that wasn\'t fully thought through, and together with the team built a living style guide as a consistent basis for further delivery."</p>' +
+    '<div class="lead">An Unfamiliar Domain</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Understand the problem → get domain knowledge → clarify technical questions → structure requirements → deliver</p>' +
+    '<p>"I don\'t need to know everything right away — what matters to me is deliberately filling knowledge gaps and clarifying both business and technical questions before we move into delivery."</p>' +
+    '<div class="lead">Getting Up to Speed Quickly</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Understand what exists → start small → apply it practically → deepen where needed → take ownership independently</p>' +
+    '<p><b>Example, Aldi:</b> "At Aldi, I joined the project without prior Vue.js experience and, after a short, structured ramp-up, was able to independently deliver features and modules."</p>' +
+    '<div class="lead">The Reporting Gap</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Name the gap openly → transferable experience → build domain knowledge → demonstrate ability to learn</p>' +
+    '<p>"Reporting is my area to learn — requirements engineering, technical alignment, and quality assurance are not."</p>' +
+    '<div class="lead">Why €88k?</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> Salary band → 10+ years of experience → large part of the role already covered → reporting is a learning area → €88k is fair</p>' +
+    '<p>"I already bring a large part of the relevant experience, which is why I see €88,000 as a fair positioning within the advertised salary band."</p>' +
+    '<div class="lead">Why Move Away from Development?</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> grown into it over the years → the interface role suits me → requirements + quality → a deliberate next step</p>' +
+    '<p>"I\'m not moving away from technology — I\'m evolving into a role I\'ve already been growing into for years."</p>' +
+    '<div class="lead">Business ↔ Technology</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Short:</span> understand the need → understand the technical objections → make the consequences transparent → options/scope → basis for a decision</p>' +
+    '<p>"I\'d understand both perspectives, make options and consequences transparent, and create a shared basis for decision-making instead of prematurely dictating a solution myself."</p>' +
+    '<div class="lead">My Core Principle</div>' +
+    '<p><span style="font-weight:700;color:var(--muted);">Schema:</span> Understand → clarify → structure → align → deliver → verify</p>' +
+    '<p><b>Mnemonic:</b> "Understand first, then solve."</p>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Talking with Michael Page</p>' +
     '<p>What the consultant is likely watching for: can I explain my CV and career shift coherently? Do I fit the client\'s requirement well enough on substance? Am I realistic and willing to learn about the reporting focus? Are salary, start date, location, and working model basically compatible? Can Michael Page credibly represent my profile to the client? Are there any risks that need clarifying before I\'m presented?</p>' +
     '<div class="lead">My message to the consultant: my profile isn\'t a classic reporting CV. It\'s a technically strong requirements engineering profile with a lot of delivery experience. I\'m especially interesting if the client is looking for someone who structures requirements, understands technical teams, accompanies testing cleanly, and can get up to speed in the reporting domain. If the client instead expects deep SQL, data modeling, or BI tool expertise from day one, that should be named openly.</div>';
