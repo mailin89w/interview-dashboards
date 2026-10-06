@@ -29,7 +29,9 @@
         ['User Story', 'Anforderung aus Nutzersicht, z. B. „Als … möchte ich …, damit …“'],
         ['Acceptance Criteria', 'Bedingungen, wann eine Story fachlich erfüllt ist.'],
         ['Definition of Done', 'Allgemeingültige Kriterien dafür, wann Arbeit wirklich „fertig“ ist.']
-      ]
+      ],
+      extra: '<p style="font-weight:800;color:var(--ink);margin:12px 0 6px;">Schnelles Schema: Vage Anforderungen</p>' +
+        '<p>Problem verstehen → Bedarf konkretisieren → User Story formulieren → Akzeptanzkriterien definieren → Lösung gemeinsam erarbeiten</p>'
     },
     {
       title: 'Scrum-Events',
@@ -40,7 +42,9 @@
         ['Daily', 'Kurzer täglicher Abgleich.'],
         ['Review', 'Ergebnis zeigen und Feedback einsammeln.'],
         ['Retrospektive', 'Zusammenarbeit und Prozess verbessern.']
-      ]
+      ],
+      extra: '<p style="font-weight:800;color:var(--ink);margin:12px 0 6px;">Schnelles Schema: Sprint-Zielkonflikt</p>' +
+        '<p>Verstehen → Sprintziel prüfen → Optionen/Scope klären → Backlog neu priorisieren → Stakeholder informieren</p>'
     },
     {
       title: 'Produktversionen &amp; Phasen',
@@ -154,7 +158,7 @@
       ? ' <span style="font-weight:700;color:var(--muted);">(' + cat.terms.length + ')</span>'
       : '';
     var html = '<div class="macc" data-cs-cat="' + idx + '">' +
-      '<button class="macc-head">' + cat.title + count + '<span class="chev">▾</span></button>' +
+      '<button class="macc-head"><span>' + cat.title + count + '</span><span class="chev">▾</span></button>' +
       '<div class="macc-body"><div class="macc-body-inner">';
     if (cat.terms && cat.terms.length) {
       html += '<table class="info"><tr><th>Begriff</th><th>Definition</th></tr>';
