@@ -12,6 +12,18 @@
 
   var CHEATSHEET = [
     {
+      title: 'Methoden',
+      terms: [
+        ['Agile', 'Schrittweise entwickeln, regelmäßig Feedback einholen und flexibel auf Änderungen reagieren.'],
+        ['Scrum', 'Agiles Arbeiten in festen Sprints. Backlog priorisieren → Sprint planen → umsetzen → Review → Retro → nächster Sprint.'],
+        ['Kanban', 'Kontinuierlicher Arbeitsfluss ohne feste Sprints. Aufgaben wandern z. B. von To Do → In Progress → Done. Begrenzung paralleler Arbeit (WIP-Limit).'],
+        ['Scrumban', 'Mischung aus Scrum + Kanban. Scrum gibt Struktur und Planung, Kanban sorgt für flexiblen, kontinuierlichen Arbeitsfluss.'],
+        ['Wasserfall', 'Phasen nacheinander abschließen: Anforderungen → Planung → Entwicklung → Test → Release. Änderungen später schwieriger.']
+      ],
+      extra: '<p style="font-weight:800;color:var(--ink);margin:12px 0 6px;">Merksatz</p>' +
+        '<p>Agile = flexibel | Scrum = Sprints | Kanban = Flow | Scrumban = Struktur + Flow | Wasserfall = Schritt für Schritt</p>'
+    },
+    {
       title: 'Rollen',
       terms: [
         ['Product Owner (PO)', 'Verantwortet was gebaut wird und warum. Priorisiert Backlog, formuliert Produktziele, maximiert Produktwert.'],
