@@ -65,6 +65,17 @@
           "dashboardPath": "dashboards/michael-page/business-analyst-requirements-engineer-reporting/index.html"
         }
       ]
+    },
+    {
+      "employer": "marketoolz",
+      "slug": "marketoolz",
+      "jobs": [
+        {
+          "title": "Agile Project Manager",
+          "date": "2026-10-15",
+          "dashboardPath": "dashboards/marketoolz/agile-project-manager/index.html"
+        }
+      ]
     }
   ]
 }
