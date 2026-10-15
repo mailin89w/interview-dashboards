@@ -150,7 +150,53 @@ window.DASHBOARD_DATA = (function(){
     '<tr><td class="k">Technische Architekturthemen einordnen</td><td>Breites Web-, Shop- und Entwicklungsverständnis; Spring Boot, SSO und Hosting nicht als Spezialexpertise behaupten.</td></tr>' +
     '<tr><td class="k">Roadmap und Steckbriefe erstellen</td><td>Priorisierung, Abhängigkeiten und Quick Wins aus Projektpraxis; formale Roadmap-Gesamtverantwortung ist nächster Schritt.</td></tr>' +
     '<tr><td class="k">Innovation und KI-gestützte Prozesse</td><td>Weiterbildung im AI Project Management, AI Agents und Workflows; Interesse an verantwortungsvollem Praxiseinsatz.</td></tr>' +
-    '</table>';
+    '</table>' +
+    '<p style="font-weight:800;color:var(--ink);margin:18px 0 4px;">Technische Begriffe aus der Anzeige</p>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">Spring Boot</p>' +
+    '<ul class="tight">' +
+    '<li>Java-Framework fürs Backend</li>' +
+    '<li>Baut Web-Anwendungen und REST-APIs schnell auf</li>' +
+    '<li>Viel Vorkonfiguration, Webserver eingebaut</li>' +
+    '<li>Bei marketoolz: wahrscheinlich Basis für Portale und Schnittstellen (z. B. ERP)</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Ausführlicher erklärt <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p>Spring Boot baut auf dem Spring Framework auf, dem verbreitetsten Java-Ökosystem für Unternehmensanwendungen. Es nimmt Entwicklern viel Konfigurationsarbeit ab („Convention over Configuration“): Über sogenannte <b>Starter</b> (z. B. für Web, Datenbank oder Security) bindet man Funktionen einfach als Abhängigkeit ein. Ein Webserver (meist Tomcat) ist eingebaut, die Anwendung läuft als eigenständige Datei und lässt sich deshalb gut in Docker-Containern betreiben.</p>' +
+    '<p><b>Typische Einsätze:</b> REST-APIs, Backends für B2B-Portale, Microservices, Anbindung an ERP-Systeme, Datenbankzugriff über Spring Data/JPA, Login und Rechte über Spring Security.</p>' +
+    '<p><b>Was das für die Projektrolle heißt:</b> Aufwände für Schnittstellen realistisch einschätzen, Abhängigkeiten zu Versions-Upgrades (z. B. Spring Boot 2 → 3 mit neuer Java-Version) und Sicherheitsupdates in Roadmap und Wartung einplanen.</p>' +
+    '<div class="erg">Vergleich aus meiner Welt: Was Laravel oder Symfony für PHP sind, ist Spring Boot für Java.</div>' +
+    '</div></div></div>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">SSO (Single Sign-On)</p>' +
+    '<ul class="tight">' +
+    '<li>Einmal anmelden, Zugriff auf mehrere Anwendungen</li>' +
+    '<li>Zentrale Identität beim Identity Provider (z. B. Microsoft Entra ID, Keycloak, Okta)</li>' +
+    '<li>Standards: SAML 2.0, OpenID Connect / OAuth 2.0</li>' +
+    '<li>Im B2B-Portal: Kunden-Mitarbeitende nutzen ihren Firmen-Login</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Ausführlicher erklärt <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p><b>Ablauf:</b> Nutzer öffnet die Anwendung → wird zum Identity Provider (IdP) weitergeleitet → meldet sich dort an, ggf. mit Zwei-Faktor → der IdP schickt ein signiertes Token zurück → die Anwendung vertraut diesem Token und lässt den Nutzer rein. Ein Passwort muss die Anwendung selbst gar nicht kennen.</p>' +
+    '<p><b>Vorteile:</b> weniger Passwörter, zentrale Rechteverwaltung, Offboarding an einer Stelle, höhere Sicherheit. <b>Abgrenzung:</b> OAuth 2.0 regelt Berechtigungen (was darf eine App), OpenID Connect ergänzt die Anmeldung (wer ist der Nutzer); SAML ist der ältere, in Konzernen verbreitete Standard.</p>' +
+    '<p><b>Was das für die Projektrolle heißt:</b> Früh klären, welchen IdP und welches Protokoll der Kunde nutzt, wie Gruppen auf Rollen im Portal abgebildet werden und wer Testzugänge stellt. Die Abstimmung mit der Kunden-IT hat oft langen Vorlauf und gehört deshalb früh in den Plan.</p>' +
+    '<div class="erg">Alltagsbeispiel: „Mit Google anmelden“ ist SSO über OpenID Connect.</div>' +
+    '</div></div></div>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">Hosting</p>' +
+    '<ul class="tight">' +
+    '<li>Bereitstellung und Betrieb von Anwendungen auf Servern</li>' +
+    '<li>Varianten: eigene Server, Managed Hosting, Cloud (z. B. AWS, Azure, Hetzner)</li>' +
+    '<li>Umfasst Verfügbarkeit, Backups, Updates, Monitoring, Sicherheit</li>' +
+    '<li>marketoolz bietet Hosting selbst an → Teil des laufenden Betriebs</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Ausführlicher erklärt <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p><b>Modelle:</b> Shared Hosting (mehrere Kunden auf einem Server), virtuelle oder dedizierte Server, Managed Hosting (der Anbieter kümmert sich um Betriebssystem und Patches), Cloud (skalierbar, nutzungsbasiert abgerechnet) oder On-Premise im Rechenzentrum des Kunden.</p>' +
+    '<p><b>Wichtige Fragen bei B2B-Kunden:</b> Serverstandort und DSGVO (EU/Deutschland), SLA mit Verfügbarkeit (z. B. 99,9 %) und Reaktionszeiten, Backup- und Wiederherstellungskonzept, getrennte Umgebungen (Entwicklung, Staging, Produktion), Deployment über CI/CD und Docker, Monitoring, Kosten.</p>' +
+    '<p><b>Was das für die Projektrolle heißt:</b> Go-live und Wartungsfenster planen, Kommunikation bei Störungen steuern, Betriebsanforderungen früh im Angebot und in der Roadmap berücksichtigen.</p>' +
+    '<div class="erg">Brücke zu mir: Docker-Erfahrung und Go-live-Begleitung aus Kundenprojekten.</div>' +
+    '</div></div></div>';
 
   CONTENT.en[4] = '<p style="font-weight:800;color:var(--ink);margin-bottom:6px;">The Company marketoolz</p>' +
     '<p>marketoolz is an owner-managed software house based in Hamburg, founded in 2000. The company develops and operates individual web-based information systems, dashboards, data management platforms, B2B portals, and e-commerce solutions. Services range from requirements analysis and conception through development, system integration, and hosting, to training, support, and ongoing operations.</p>' +
@@ -185,7 +231,53 @@ window.DASHBOARD_DATA = (function(){
     '<tr><td class="k">Frame technical architecture topics</td><td>Broad web, shop, and development understanding; won\'t claim Spring Boot, SSO, or hosting as specialist expertise.</td></tr>' +
     '<tr><td class="k">Build roadmaps and briefs</td><td>Prioritization, dependencies, and quick wins from project practice; formal end-to-end roadmap ownership is the next step.</td></tr>' +
     '<tr><td class="k">Innovation and AI-supported processes</td><td>AI Project Management training, AI agents, and workflows; interest in responsible practical use.</td></tr>' +
-    '</table>';
+    '</table>' +
+    '<p style="font-weight:800;color:var(--ink);margin:18px 0 4px;">Technical Terms From the Ad</p>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">Spring Boot</p>' +
+    '<ul class="tight">' +
+    '<li>Java framework for the backend</li>' +
+    '<li>Gets web applications and REST APIs up and running fast</li>' +
+    '<li>Lots of preconfiguration, built-in web server</li>' +
+    '<li>At marketoolz: likely the basis for portals and interfaces (e.g. ERP)</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Explained in more detail <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p>Spring Boot builds on the Spring Framework, the most widespread Java ecosystem for enterprise applications. It takes a lot of configuration work off developers\' hands ("convention over configuration"): via so-called <b>starters</b> (e.g. for web, database, or security) you add features simply as a dependency. A web server (usually Tomcat) is built in, and the application runs as a self-contained file, which makes it easy to run in Docker containers.</p>' +
+    '<p><b>Typical uses:</b> REST APIs, backends for B2B portals, microservices, ERP integrations, database access via Spring Data/JPA, login and permissions via Spring Security.</p>' +
+    '<p><b>What it means for the project role:</b> realistically estimating effort for interfaces, and planning dependencies on version upgrades (e.g. Spring Boot 2 → 3 with a new Java version) and security updates into the roadmap and maintenance.</p>' +
+    '<div class="erg">Comparison from my world: what Laravel or Symfony are for PHP, Spring Boot is for Java.</div>' +
+    '</div></div></div>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">SSO (Single Sign-On)</p>' +
+    '<ul class="tight">' +
+    '<li>Log in once, access several applications</li>' +
+    '<li>Central identity at an identity provider (e.g. Microsoft Entra ID, Keycloak, Okta)</li>' +
+    '<li>Standards: SAML 2.0, OpenID Connect / OAuth 2.0</li>' +
+    '<li>In a B2B portal: client employees use their company login</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Explained in more detail <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p><b>Flow:</b> the user opens the application → is redirected to the identity provider (IdP) → logs in there, possibly with two-factor → the IdP sends back a signed token → the application trusts that token and lets the user in. The application itself never needs to know a password.</p>' +
+    '<p><b>Benefits:</b> fewer passwords, central permission management, offboarding in one place, better security. <b>Distinction:</b> OAuth 2.0 handles authorization (what an app may do), OpenID Connect adds authentication (who the user is); SAML is the older standard common in large enterprises.</p>' +
+    '<p><b>What it means for the project role:</b> clarify early which IdP and protocol the client uses, how groups map to roles in the portal, and who provides test accounts. Alignment with the client\'s IT often has a long lead time, so it belongs early in the plan.</p>' +
+    '<div class="erg">Everyday example: "Sign in with Google" is SSO via OpenID Connect.</div>' +
+    '</div></div></div>' +
+
+    '<p style="font-weight:800;color:var(--sage-dark);margin:12px 0 4px;">Hosting</p>' +
+    '<ul class="tight">' +
+    '<li>Providing and running applications on servers</li>' +
+    '<li>Options: own servers, managed hosting, cloud (e.g. AWS, Azure, Hetzner)</li>' +
+    '<li>Covers availability, backups, updates, monitoring, security</li>' +
+    '<li>marketoolz offers hosting itself → part of ongoing operations</li>' +
+    '</ul>' +
+    '<div class="macc"><button class="macc-head">Explained in more detail <span class="chev">▾</span></button>' +
+    '<div class="macc-body"><div class="macc-body-inner">' +
+    '<p><b>Models:</b> shared hosting (several clients on one server), virtual or dedicated servers, managed hosting (the provider handles the operating system and patches), cloud (scalable, usage-based billing), or on-premise in the client\'s data center.</p>' +
+    '<p><b>Key questions for B2B clients:</b> server location and GDPR (EU/Germany), SLA with availability (e.g. 99.9%) and response times, backup and recovery concept, separate environments (development, staging, production), deployment via CI/CD and Docker, monitoring, cost.</p>' +
+    '<p><b>What it means for the project role:</b> planning go-live and maintenance windows, steering communication during incidents, factoring operational requirements into proposals and the roadmap early.</p>' +
+    '<div class="erg">Bridge to me: Docker experience and go-live support from client projects.</div>' +
+    '</div></div></div>';
 
   // ===== 5 · STAR Answers =====
   CONTENT.de[5] = '<div class="lead">Kennzahlen oder Ergebnisse nur nennen, wenn sie belegt sind. Wirkung sonst qualitativ beschreiben.</div>' +
