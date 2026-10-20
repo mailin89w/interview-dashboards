@@ -76,6 +76,17 @@
           "dashboardPath": "dashboards/marketoolz/agile-project-manager/index.html"
         }
       ]
+    },
+    {
+      "employer": "Friendventure",
+      "slug": "friendventure",
+      "jobs": [
+        {
+          "title": "Projektmanagerin Digital (Web & E-Commerce)",
+          "date": "2026-10-20",
+          "dashboardPath": "dashboards/friendventure/projektmanagerin-digital/index.html"
+        }
+      ]
     }
   ]
 }
