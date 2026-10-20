@@ -10,9 +10,9 @@ window.DASHBOARD_DATA = (function(){
       role: "Projektmanagerin Digital",
       location: "Berlin / Köln laut Anzeige (ich: Hamburg – klären)",
       interviewDate: "21. Oktober 2026, 11:00–11:20 Uhr",
-      salaryAd: "nicht angegeben",
+      salaryAd: "nicht angegeben · Markt ca. 55.000–70.000 €",
       salaryAsk: "65.000 € (bereits in der Bewerbung genannt)",
-      salaryMin: "offen",
+      salaryMin: "60.000 € (absolute Untergrenze 55.000 €)",
       introTitle: "Interviewvorbereitung",
       introText: 'Ich verbinde langjährige technische Agentur- und E-Commerce-Erfahrung mit strukturierter Projektarbeit und sorge dafür, dass Kundenwünsche für Design und Entwicklung <mark>verständlich, realistisch und umsetzbar</mark> werden.'
     },
@@ -21,9 +21,9 @@ window.DASHBOARD_DATA = (function(){
       role: "Digital Project Manager",
       location: "Berlin / Cologne per the ad (me: Hamburg – to clarify)",
       interviewDate: "Oct 21, 2026, 11:00–11:20 AM",
-      salaryAd: "not stated",
+      salaryAd: "not stated · market approx. €55,000–70,000",
       salaryAsk: "€65,000 (already stated in my application)",
-      salaryMin: "TBD",
+      salaryMin: "€60,000 (absolute floor €55,000)",
       introTitle: "Interview Prep",
       introText: 'I combine many years of technical agency and e-commerce experience with structured project work, making sure client requests become <mark>understandable, realistic, and actionable</mark> for design and development.'
     }
@@ -633,7 +633,17 @@ window.DASHBOARD_DATA = (function(){
     '<li>In welchen Situationen wird verhandlungssicheres Englisch benötigt?</li>' +
     '</ul>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Gehalt, Verfügbarkeit und Standort</p>' +
-    '<div class="lead">In der Bewerbung habe ich 65.000 Euro brutto jährlich genannt. Diese Zahl vertrete ich konsistent. Formulierung: „Meine Gehaltsvorstellung liegt wie in meiner Bewerbung angegeben bei 65.000 Euro brutto jährlich. Für mich passt diese Größenordnung zu der Verbindung aus Kundenberatung, technischer Projektsteuerung und E-Commerce-Erfahrung. Natürlich möchte ich im Prozess noch verstehen, wie der genaue Verantwortungsumfang und das Gesamtpaket aussehen.“</div>' +
+    '<table class="info">' +
+    '<tr><th>Gehalt</th><th>Brutto jährlich</th></tr>' +
+    '<tr><td class="k">In der Bewerbung genannt</td><td><b>65.000 €</b></td></tr>' +
+    '<tr><td class="k">Geschätzte marktgerechte Spanne</td><td>ca. 55.000–70.000 €</td></tr>' +
+    '<tr><td class="k">Empfohlene Forderung</td><td><b>65.000 €</b></td></tr>' +
+    '<tr><td class="k">Reguläres Mindestziel</td><td>60.000 €</td></tr>' +
+    '<tr><td class="k">Nur bei besonders überzeugendem Gesamtpaket</td><td>55.000–60.000 €</td></tr>' +
+    '<tr><td class="k">Absolute Untergrenze</td><td>55.000 €</td></tr>' +
+    '</table>' +
+    '<div class="lead">Im Gespräch konsistent bei 65.000 € bleiben: „Meine Gehaltsvorstellung liegt, wie in meiner Bewerbung angegeben, bei 65.000 Euro brutto jährlich. Für mich passt diese Größenordnung zur Verbindung aus Kundenberatung, technischer Projektsteuerung und meiner langjährigen Web- und E-Commerce-Erfahrung. Natürlich möchte ich im Prozess noch verstehen, wie der konkrete Verantwortungsumfang und das Gesamtpaket aussehen.“</div>' +
+    '<div class="erg">Nicht vorsorglich relativieren oder von mir aus nach unten korrigieren: Die Stelle umfasst neben Projektsteuerung auch Kundenberatung, Aufwandskalkulation, Angebote sowie Budget- und Terminverantwortung. Mindestziel und Untergrenze nicht nennen.</div>' +
     '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">Ein kurzfristiger Einstieg ist laut Bewerbung möglich. Wenn nach einem konkreten Datum gefragt wird, nur ein Datum nennen, das tatsächlich realistisch ist.</p>' +
     '<div class="lead">Standort: „Ich lebe in Hamburg. Auf eurer Website habe ich gesehen, dass ihr einen Hamburger Standort und ein flexibles Arbeitsmodell habt, während die Stelle mit Berlin und Köln ausgeschrieben ist. Deshalb würde ich gern verstehen, wie ihr die Standortzuordnung und mögliche Präsenztage für diese Rolle konkret handhabt.“</div>';
 
@@ -659,7 +669,17 @@ window.DASHBOARD_DATA = (function(){
     '<li>In which situations is business-fluent English needed?</li>' +
     '</ul>' +
     '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Salary, Availability, and Location</p>' +
-    '<div class="lead">In my application, I stated €65,000 gross per year. I represent that figure consistently. Phrasing: "As stated in my application, my salary expectation is €65,000 gross per year. For me, that figure fits the combination of client advisory, technical project steering, and e-commerce experience. Of course, I\'d still like to understand the exact scope of responsibility and the overall package during the process."</div>' +
+    '<table class="info">' +
+    '<tr><th>Salary</th><th>Gross per year</th></tr>' +
+    '<tr><td class="k">Stated in my application</td><td><b>€65,000</b></td></tr>' +
+    '<tr><td class="k">Estimated market range</td><td>approx. €55,000–70,000</td></tr>' +
+    '<tr><td class="k">Recommended ask</td><td><b>€65,000</b></td></tr>' +
+    '<tr><td class="k">Regular minimum target</td><td>€60,000</td></tr>' +
+    '<tr><td class="k">Only with an especially convincing overall package</td><td>€55,000–60,000</td></tr>' +
+    '<tr><td class="k">Absolute floor</td><td>€55,000</td></tr>' +
+    '</table>' +
+    '<div class="lead">Stay consistently at €65,000 in the conversation: "As stated in my application, my salary expectation is €65,000 gross per year. For me, that figure fits the combination of client advisory, technical project steering, and my many years of web and e-commerce experience. Of course, I\'d still like to understand the concrete scope of responsibility and the overall package during the process."</div>' +
+    '<div class="erg">Don\'t pre-emptively qualify it or correct it downward myself: besides project steering, the role includes client advisory, effort calculation, quotes, and budget and deadline responsibility. Don\'t mention the minimum target or the floor.</div>' +
     '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">A short-notice start is possible per the application. If asked for a concrete date, only name a date that\'s actually realistic.</p>' +
     '<div class="lead">Location: "I live in Hamburg. I saw on your website that you have a Hamburg office and a flexible working model, while the role is advertised for Berlin and Cologne. So I\'d like to understand how you handle location assignment and possible on-site days for this role."</div>';
 
