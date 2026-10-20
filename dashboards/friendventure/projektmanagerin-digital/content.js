@@ -8,7 +8,7 @@ window.DASHBOARD_DATA = (function(){
     de: {
       roleSubtitle: "Projektmanagerin Digital · Web &amp; E-Commerce<br>Friendventure GmbH · Erstgespräch mit Natalie Wetzel (20 Minuten)",
       role: "Projektmanagerin Digital",
-      location: "Berlin / Köln laut Anzeige (ich: Hamburg – klären)",
+      location: "Berlin oder Köln · Hybrid / Homeoffice (ich: Hamburg – klären)",
       interviewDate: "21. Oktober 2026, 11:00–11:20 Uhr",
       salaryAd: "nicht angegeben · Markt ca. 55.000–70.000 €",
       salaryAsk: "65.000 € (bereits in der Bewerbung genannt)",
@@ -19,7 +19,7 @@ window.DASHBOARD_DATA = (function(){
     en: {
       roleSubtitle: "Digital Project Manager · Web &amp; E-Commerce<br>Friendventure GmbH · First conversation with Natalie Wetzel (20 minutes)",
       role: "Digital Project Manager",
-      location: "Berlin / Cologne per the ad (me: Hamburg – to clarify)",
+      location: "Berlin or Cologne · hybrid / home office (me: Hamburg – to clarify)",
       interviewDate: "Oct 21, 2026, 11:00–11:20 AM",
       salaryAd: "not stated · market approx. €55,000–70,000",
       salaryAsk: "€65,000 (already stated in my application)",
@@ -645,7 +645,15 @@ window.DASHBOARD_DATA = (function(){
     '<div class="lead">Im Gespräch konsistent bei 65.000 € bleiben: „Meine Gehaltsvorstellung liegt, wie in meiner Bewerbung angegeben, bei 65.000 Euro brutto jährlich. Für mich passt diese Größenordnung zur Verbindung aus Kundenberatung, technischer Projektsteuerung und meiner langjährigen Web- und E-Commerce-Erfahrung. Natürlich möchte ich im Prozess noch verstehen, wie der konkrete Verantwortungsumfang und das Gesamtpaket aussehen.“</div>' +
     '<div class="erg">Nicht vorsorglich relativieren oder von mir aus nach unten korrigieren: Die Stelle umfasst neben Projektsteuerung auch Kundenberatung, Aufwandskalkulation, Angebote sowie Budget- und Terminverantwortung. Mindestziel und Untergrenze nicht nennen.</div>' +
     '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">Ein kurzfristiger Einstieg ist laut Bewerbung möglich. Wenn nach einem konkreten Datum gefragt wird, nur ein Datum nennen, das tatsächlich realistisch ist.</p>' +
-    '<div class="lead">Standort: „Ich lebe in Hamburg. Auf eurer Website habe ich gesehen, dass ihr einen Hamburger Standort und ein flexibles Arbeitsmodell habt, während die Stelle mit Berlin und Köln ausgeschrieben ist. Deshalb würde ich gern verstehen, wie ihr die Standortzuordnung und mögliche Präsenztage für diese Rolle konkret handhabt.“</div>';
+    '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Standort und Arbeitsmodell</p>' +
+    '<ul class="tight">' +
+    '<li><b>Standorte der Position laut Anzeige:</b> Berlin oder Köln</li>' +
+    '<li><b>Arbeitsmodell:</b> „Volle Flexibilität“ bei Arbeitszeit und Arbeitsort; ausdrücklich Hybrid Work und Homeoffice</li>' +
+    '<li><b>Zusätzlich:</b> Friendventure hat auch einen Standort in Hamburg</li>' +
+    '<li><b>Offen:</b> Die Anzeige bestätigt nicht eindeutig, dass diese Rolle dauerhaft aus Hamburg oder vollständig remote möglich ist → im Gespräch klären</li>' +
+    '</ul>' +
+    '<div class="lead">Formulierung: „Ich lebe in Hamburg. In der Anzeige nennt ihr Berlin und Köln, gleichzeitig beschreibt ihr euer Arbeitsmodell als sehr flexibel und habt auch einen Hamburger Standort. Wie ist die Standortzuordnung für diese Rolle konkret geregelt? Wäre eine Anbindung an Hamburg mit überwiegend remote Arbeit möglich, und welche Präsenztage wären vorgesehen?“</div>' +
+    '<div class="erg">Nicht direkt fragen, ob ich „komplett remote“ arbeiten kann. Die offene Formulierung zeigt zuerst, wie das Modell tatsächlich gelebt wird.</div>';
 
   CONTENT.en[8] = '<p style="font-weight:800;color:var(--ink);margin-bottom:6px;">Prioritize for the First Conversation</p>' +
     '<ul class="tight">' +
@@ -681,7 +689,15 @@ window.DASHBOARD_DATA = (function(){
     '<div class="lead">Stay consistently at €65,000 in the conversation: "As stated in my application, my salary expectation is €65,000 gross per year. For me, that figure fits the combination of client advisory, technical project steering, and my many years of web and e-commerce experience. Of course, I\'d still like to understand the concrete scope of responsibility and the overall package during the process."</div>' +
     '<div class="erg">Don\'t pre-emptively qualify it or correct it downward myself: besides project steering, the role includes client advisory, effort calculation, quotes, and budget and deadline responsibility. Don\'t mention the minimum target or the floor.</div>' +
     '<p style="font-size:11.5px;color:var(--muted);margin-top:8px;">A short-notice start is possible per the application. If asked for a concrete date, only name a date that\'s actually realistic.</p>' +
-    '<div class="lead">Location: "I live in Hamburg. I saw on your website that you have a Hamburg office and a flexible working model, while the role is advertised for Berlin and Cologne. So I\'d like to understand how you handle location assignment and possible on-site days for this role."</div>';
+    '<p style="font-weight:800;color:var(--ink);margin:16px 0 6px;">Location and Working Model</p>' +
+    '<ul class="tight">' +
+    '<li><b>Locations per the ad:</b> Berlin or Cologne</li>' +
+    '<li><b>Working model:</b> "full flexibility" in working hours and location; hybrid work and home office explicitly named</li>' +
+    '<li><b>Additionally:</b> Friendventure also has a Hamburg office</li>' +
+    '<li><b>Open:</b> the ad doesn\'t clearly confirm this role can be done permanently from Hamburg or fully remote → clarify in the conversation</li>' +
+    '</ul>' +
+    '<div class="lead">Phrasing: "I live in Hamburg. In the ad you name Berlin and Cologne, while you also describe your working model as very flexible and have a Hamburg office. How is the location assignment for this role handled concretely? Would being attached to Hamburg with mostly remote work be possible, and which on-site days would be expected?"</div>' +
+    '<div class="erg">Don\'t ask directly whether I can work "fully remote." The open phrasing first reveals how the model is actually lived.</div>';
 
   // ===== 9 · Mental Checklist =====
   CONTENT.de[9] = '<p style="font-weight:800;color:var(--ink);margin-bottom:6px;">Meine drei Kernbotschaften</p>' +
