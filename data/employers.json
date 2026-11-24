@@ -98,6 +98,17 @@
           "dashboardPath": "dashboards/moltomedia/projektmanagerin-digital/index.html"
         }
       ]
+    },
+    {
+      "employer": "FRICKE Gruppe",
+      "slug": "fricke",
+      "jobs": [
+        {
+          "title": "Senior E-Commerce Manager (GRANIT PARTS, B2B-Webshop)",
+          "date": "2026-11-25",
+          "dashboardPath": "dashboards/fricke/senior-e-commerce-manager/index.html"
+        }
+      ]
     }
   ]
 }
